@@ -1,0 +1,8 @@
+.menu-item{ /*         header	nav ul li              */
+	list-style: none;
+}
+
+.menu-item:last-child .menu-link{ /* tirar o espaço do ultimo link do cabeçaho 	
+	*/
+	margin-right: 0;
+}

@@ -1,0 +1,26 @@
+.receitas{
+	background: #e5e5e5;
+	display: flex; /* para que esse elemento se comporte como uma flex box;*/
+	flex-wrap: wrap; /*  para quebrarmos automaticamente os elementos em linhas conforme a tela é diminuida; */
+	
+}
+
+
+@media screen and (min-width: 0) { 
+	.receitas{
+		padding: 5rem 0 0 1rem;
+	}
+}
+
+
+@media screen and (min-width: 768px) {
+	.receitas{
+		padding: 5rem 0 0 2.5rem;
+	}
+}
+
+@media screen and (min-width: 992px) {
+	.receitas{
+		padding: 5rem 0 0 5rem;
+	}
+}
